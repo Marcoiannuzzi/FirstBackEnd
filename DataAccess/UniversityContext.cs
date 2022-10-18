@@ -12,5 +12,10 @@ namespace FirstBackEnd.DataAccess
 
         //TODO: add DbSet (tables of our data base)
         public DbSet<User>? Users { get; set; }
+        public DbSet<Curso>? Curso { get; set; }
+        public DbSet<Category>? Categories { get; set; }
+        public DbSet<Alumno>? Alumnos { get; set; }
+        public DbSet<Chapter>? Chapters { get; set; }
     }
 }
+ 
